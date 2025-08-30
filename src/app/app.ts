@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { Typescript } from "./typescript/typescript";
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [Typescript],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
